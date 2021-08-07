@@ -7,5 +7,5 @@ Author: EXSYthemes
 -----------------------------------------------*/
 "use strict";
 $(function () {
-	$('#countdown').countdown({until: new Date(2021, 8, 26)});
+	$('#countdown').countdown({until: new Date(2021, 7, 26)});
 });
