@@ -1,2 +1,0 @@
-# sedscusat-comingsoon
-Hi hi :)
