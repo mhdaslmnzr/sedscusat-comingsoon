@@ -34,6 +34,7 @@ body {
   background: #000000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   font-size: 14px;
   line-height: 1;
+  font-family: 'Poppins', sans-serif;
 }
 
 label {
@@ -137,7 +138,6 @@ button {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -335,6 +335,11 @@ h3 {
 .c-social__link:hover {
   opacity: .7;
 }
+
+img{
+  width: 50%;
+  height: auto;
+}
 /* 2.2. END Social style */
 /***********************************
 			/* 2. END CONTENT */
@@ -343,17 +348,6 @@ h3 {
 /***********************************
 			/* 3. RESPONSIVE */
 /***********************************/
-@media (max-width: 1400px) { 
-  .lamp {
-    zoom: .7;
-  }
-  .comingsoon__content {
-    top: 55%;
-  }
-  h1 {
-    font-size: 38px;
-  }
-}
 
 @media (max-width: 900px) {
   h1 {
@@ -391,7 +385,7 @@ h3 {
 }
 
 @media (max-width: 650px) {
-  body, html, {
+  body, html {
     max-height: 100vh;
   }
    .comingsoon__content {
